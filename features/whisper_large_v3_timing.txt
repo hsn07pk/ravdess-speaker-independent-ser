@@ -1,0 +1,1 @@
+openai/whisper-large-v3	mps	0.5271 s/clip	636968960 params

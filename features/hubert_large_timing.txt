@@ -1,0 +1,1 @@
+facebook/hubert-large-ll60k	mps	0.0538 s/clip	315438720 params

@@ -1,0 +1,1 @@
+facebook/wav2vec2-xls-r-300m	mps	0.0493 s/clip	315438720 params
