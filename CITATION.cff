@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+type: software
+title: "Speaker-Independent Speech Emotion Recognition on RAVDESS: From MFCCs to Speech Foundation Models"
+abstract: >-
+  Code, out-of-fold predictions and report for a strictly speaker-independent
+  comparison of handcrafted acoustic features and frozen speech foundation models
+  (WavLM, HuBERT, XLS-R, Whisper) on the RAVDESS speech corpus, with nested
+  leave-one-speaker-out selection, end-to-end fine-tuning, a protocol-inflation
+  analysis, a contamination check and a per-clip comparison with human listeners.
+authors:
+  - family-names: Sohail
+    given-names: Muhammad Hassan
+    affiliation: University of Oulu
+version: 1.0.0
+date-released: "2026-10-09"
+license: MIT
+repository-code: "https://github.com/hsn07pk/ravdess-speaker-independent-ser"
+keywords:
+  - speech emotion recognition
+  - affective computing
+  - RAVDESS
+  - speaker independence
+  - speech foundation models
+  - self-supervised learning
