@@ -1,0 +1,19 @@
+\begin{table}[!t]
+\centering
+\caption{Protocol inflation, UAR (\%). Change against the strict nested LOSO result in parentheses. The random 5-fold split and the per-speaker normalization (Spk. norm.) repeat the full nested selection; the last column picks the best layer on the test results. Whisper-L-v3: Whisper-large-v3 encoder; MFCC + pros. + spec.: MFCC + prosody + spectral.}
+\label{tab:inflation}
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{lcccc}
+\toprule
+Representation & LOSO & Random 5-fold & Spk. norm. & Layer on test \\
+\midrule
+XLS-R 300M & 81.9 & 89.4 (+7.5) & 86.8 (+4.9) & 83.4 (+1.5) \\
+WavLM Large & 81.3 & 91.7 (+10.4) & 87.3 (+6.0) & 81.7 (+0.4) \\
+Whisper-L-v3 & 80.2 & 90.4 (+10.2) & 89.1 (+8.9) & 82.2 (+2.0) \\
+HuBERT Large & 77.8 & 89.1 (+11.3) & 85.1 (+7.3) & 78.7 (+0.9) \\
+ComParE 2016 & 63.6 & 73.6 (+10.0) & 72.2 (+8.6) & n/a \\
+eGeMAPS v02 & 53.1 & 60.3 (+7.2) & 62.2 (+9.1) & n/a \\
+MFCC + pros. + spec. & 50.5 & 63.9 (+13.4) & 59.8 (+9.3) & n/a \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,19 @@
+\begin{table}[!t]
+\centering
+\caption{Listeners and models on the same 1440 clips, seven options (neutral and calm merged). For the listeners: mean proportion correct. $\rho$: Spearman correlation between the share of correct ratings per clip and the model's probability for the true emotion. Hard clips: at most four of the ten listeners correct ($n=414$).}
+\label{tab:human}
+\begin{tabular}{lccc}
+\toprule
+System & Acc. \% & $\rho$ & Acc. on hard clips \% \\
+\midrule
+Human listeners & 62.4 & n/a & n/a \\
+XLS-R 300M & 83.6 & 0.47 & 63.5 \\
+WavLM Large & 82.9 & 0.49 & 63.3 \\
+Whisper-large-v3 enc. & 82.8 & 0.45 & 62.3 \\
+HuBERT Large & 79.6 & 0.42 & 59.4 \\
+ComParE 2016 & 66.0 & 0.37 & 46.1 \\
+eGeMAPS v02 & 55.3 & 0.42 & 33.1 \\
+MFCC + prosody + spectral & 56.2 & 0.41 & 33.6 \\
+\bottomrule
+\end{tabular}
+\end{table}

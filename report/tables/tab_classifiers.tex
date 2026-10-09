@@ -1,0 +1,15 @@
+\begin{table}[!t]
+\centering
+\caption{UAR (\%) of three classifiers on the same nested protocol. For WavLM Large the SVM and the RF use the layer chosen per fold by the LR search; $C$ is re-tuned for the SVM, and the RF (500 trees) is not tuned.}
+\label{tab:classifiers}
+\begin{tabular}{lccc}
+\toprule
+Features & LR & SVM (RBF) & RF \\
+\midrule
+MFCC + prosody + spectral & 50.5 & 50.5 & 48.1 \\
+eGeMAPS v02 & 53.1 & 51.2 & 51.2 \\
+ComParE 2016 & 63.6 & 59.5 & 52.3 \\
+WavLM Large & 81.3 & 81.0 & 75.5 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,22 @@
+\begin{table}[!t]
+\centering
+\caption{Published results on RAVDESS speech, eight classes. The protocols differ, so the numbers are not directly comparable. UAR: unweighted average recall (UA in \cite{ma2024emobox,yang2026clsp}); acc.: accuracy (WAR in \cite{sun2024hicmae}); LR: logistic regression; MLP: multilayer perceptron.}
+\label{tab:literature}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.0cm}>{\raggedright\arraybackslash}p{2.65cm}>{\raggedright\arraybackslash}p{1.75cm}r}
+\toprule
+Work & System & Protocol & Result \\
+\midrule
+George \& P \cite{george2025whisper} & Frozen Whisper-large + LR & LOSO & 79.3 UAR \\
+ & Frozen Whisper-large + MLP & speaker-dependent & 91.7 acc. \\
+Luna-Jim\'enez et al. \cite{lunajimenez2022proposal} & Fine-tuned XLSR-53 (English ASR checkpoint) & 5 folds by actor & 81.8 acc. \\
+EmoBox \cite{ma2024emobox} & Frozen Whisper-large-v3, last layer & released split, 6 folds of 4 actors & 75.3 UAR \\
+ & Frozen WavLM Large, last layer & same & 72.0 UAR \\
+Sun et al. \cite{sun2024hicmae} & WavLM Base+, audio only & 6 folds by actor & 75.4 acc. \\
+Yang et al. \cite{yang2026clsp} & CLSP, zero-shot & no training & 46.0 UAR \\
+Livingstone \& Russo \cite{livingstone2018ravdess} & 247 listeners, audio only & listening test & 58 / 67 acc.$^{a}$ \\
+\bottomrule
+\multicolumn{4}{p{0.95\columnwidth}}{$^{a}$Mean proportion correct at normal / strong intensity; neutral and calm were accepted for each other, and ``none of these'' was an option.}
+\end{tabular}
+\end{table}
