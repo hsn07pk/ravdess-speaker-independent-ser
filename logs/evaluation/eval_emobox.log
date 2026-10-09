@@ -1,0 +1,4 @@
+wavlm_large_last_emobox            UAR 0.7526  acc 0.7507  F1 0.7482  not_converged 0  t=5s
+hubert_large_last_emobox           UAR 0.7083  acc 0.7042  F1 0.7023  not_converged 0  t=9s
+xlsr_300m_last_emobox              UAR 0.7474  acc 0.7444  F1 0.7411  not_converged 0  t=13s
+whisper_large_v3_last_emobox       UAR 0.7650  acc 0.7632  F1 0.7586  not_converged 0  t=16s

@@ -1,0 +1,95 @@
+Loading weights:   0%|          | 0/488 [00:00<?, ?it/s]Loading weights: 100%|██████████| 488/488 [00:00<00:00, 21968.90it/s]
+wavlm_large 100/1440 16s
+wavlm_large 200/1440 25s
+wavlm_large 300/1440 30s
+wavlm_large 400/1440 34s
+wavlm_large 500/1440 38s
+wavlm_large 600/1440 41s
+wavlm_large 700/1440 44s
+wavlm_large 800/1440 46s
+wavlm_large 900/1440 49s
+wavlm_large 1000/1440 51s
+wavlm_large 1100/1440 54s
+wavlm_large 1200/1440 57s
+wavlm_large 1300/1440 59s
+wavlm_large 1400/1440 61s
+wavlm_large (1440, 25, 2048) 0.043 s/clip
+Loading weights:   0%|          | 0/422 [00:00<?, ?it/s]Loading weights: 100%|██████████| 422/422 [00:00<00:00, 31923.46it/s]
+hubert_large 100/1440 10s
+hubert_large 200/1440 16s
+hubert_large 300/1440 21s
+hubert_large 400/1440 26s
+hubert_large 500/1440 32s
+hubert_large 600/1440 36s
+hubert_large 700/1440 41s
+hubert_large 800/1440 46s
+hubert_large 900/1440 51s
+hubert_large 1000/1440 56s
+hubert_large 1100/1440 61s
+hubert_large 1200/1440 66s
+hubert_large 1300/1440 71s
+hubert_large 1400/1440 75s
+hubert_large (1440, 25, 2048) 0.054 s/clip
+Loading weights:   0%|          | 0/422 [00:00<?, ?it/s]Loading weights: 100%|██████████| 422/422 [00:00<00:00, 31866.56it/s]
+[transformers] [1mWav2Vec2Model LOAD REPORT[0m from: facebook/wav2vec2-xls-r-300m
+Key                          | Status     |  | 
+-----------------------------+------------+--+-
+project_q.bias               | UNEXPECTED |  | 
+project_q.weight             | UNEXPECTED |  | 
+project_hid.weight           | UNEXPECTED |  | 
+quantizer.codevectors        | UNEXPECTED |  | 
+quantizer.weight_proj.bias   | UNEXPECTED |  | 
+quantizer.weight_proj.weight | UNEXPECTED |  | 
+project_hid.bias             | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+xlsr_300m 100/1440 9s
+xlsr_300m 200/1440 15s
+xlsr_300m 300/1440 20s
+xlsr_300m 400/1440 25s
+xlsr_300m 500/1440 31s
+xlsr_300m 600/1440 35s
+xlsr_300m 700/1440 39s
+xlsr_300m 800/1440 43s
+xlsr_300m 900/1440 47s
+xlsr_300m 1000/1440 52s
+xlsr_300m 1100/1440 56s
+xlsr_300m 1200/1440 60s
+xlsr_300m 1300/1440 65s
+xlsr_300m 1400/1440 69s
+xlsr_300m (1440, 25, 2048) 0.049 s/clip
+Loading weights:   0%|          | 0/1259 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1259/1259 [00:00<00:00, 13924.02it/s]
+Traceback (most recent call last):
+  File "/Users/hassan/ac_finalproject_work/sota/code/feat_ssl.py", line 32, in <module>
+    hs = model(x, output_hidden_states=True).hidden_states
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/ac-ser/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/ac-ser/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/ac-ser/lib/python3.11/site-packages/transformers/utils/generic.py", line 1068, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/ac-ser/lib/python3.11/site-packages/transformers/utils/output_capturing.py", line 287, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/ac-ser/lib/python3.11/site-packages/transformers/models/whisper/modeling_whisper.py", line 620, in forward
+    inputs_embeds = nn.functional.gelu(self.conv1(input_features))
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/ac-ser/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/ac-ser/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/ac-ser/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 385, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/ac-ser/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 380, in _conv_forward
+    return F.conv1d(
+           ^^^^^^^^^
+RuntimeError: Input type (float) and bias type (c10::Half) should be the same
+SSLDONE

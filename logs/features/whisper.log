@@ -1,0 +1,16 @@
+Loading weights:   0%|          | 0/1259 [00:00<?, ?it/s]Loading weights:  62%|██████▏   | 780/1259 [00:00<00:00, 7790.35it/s]Loading weights: 100%|██████████| 1259/1259 [00:00<00:00, 9858.28it/s]
+whisper_large_v3 100/1440 52s
+whisper_large_v3 200/1440 102s
+whisper_large_v3 300/1440 151s
+whisper_large_v3 400/1440 201s
+whisper_large_v3 500/1440 253s
+whisper_large_v3 600/1440 304s
+whisper_large_v3 700/1440 356s
+whisper_large_v3 800/1440 417s
+whisper_large_v3 900/1440 466s
+whisper_large_v3 1000/1440 521s
+whisper_large_v3 1100/1440 584s
+whisper_large_v3 1200/1440 644s
+whisper_large_v3 1300/1440 692s
+whisper_large_v3 1400/1440 740s
+whisper_large_v3 (1440, 33, 2560) 0.527 s/clip

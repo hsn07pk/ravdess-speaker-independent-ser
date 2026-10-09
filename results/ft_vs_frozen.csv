@@ -1,0 +1,2 @@
+a,b,uar_a,uar_b,mean_diff,median_diff,wins,losses,ties,p
+wavlm_large_ft,wavlm_large_nested,0.732421875,0.8131510417,-0.08072916667,-0.046875,3,18,3,0.0002905741769

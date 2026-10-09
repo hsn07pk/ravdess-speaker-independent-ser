@@ -1,0 +1,5 @@
+system,pooled_uar,fold_mean_uar,fold_sd
+wavlm_large_last_emobox,0.7526041667,0.7526041667,0.05653501289
+xlsr_300m_last_emobox,0.7473958333,0.7473958333,0.04109305687
+hubert_large_last_emobox,0.7083333333,0.7083333333,0.04533045621
+whisper_large_v3_last_emobox,0.7649739583,0.7649739583,0.04906453187

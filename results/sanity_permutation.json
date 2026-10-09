@@ -1,0 +1,24 @@
+{
+ "runs": [
+  {
+   "system": "wavlm_large_perm_s0",
+   "uar": 0.138671875,
+   "acc": 0.13958333333333334
+  },
+  {
+   "system": "wavlm_large_perm_s1",
+   "uar": 0.125,
+   "acc": 0.11944444444444445
+  },
+  {
+   "system": "wavlm_large_perm_s2",
+   "uar": 0.13736979166666669,
+   "acc": 0.1375
+  }
+ ],
+ "mean_uar": 0.13368055555555555,
+ "min_uar": 0.125,
+ "max_uar": 0.138671875,
+ "chance": 0.125,
+ "note": "labels permuted within each actor (class counts per actor kept); full nested layer x C selection repeated"
+}

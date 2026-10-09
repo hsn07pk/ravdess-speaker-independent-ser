@@ -1,0 +1,4 @@
+wavlm_large_nested_svm             UAR 0.8099  acc 0.8125  F1 0.8119  not_converged 0  t=56s
+wavlm_large_nested_rf              UAR 0.7552  acc 0.7528  F1 0.7451  not_converged 0  t=75s
+wavlm_large_nested_egemaps_fusion  UAR 0.8164  acc 0.8174  F1 0.8142  not_converged 0  t=84s
+wavlm_large_nested_meanstd         UAR 0.8132  acc 0.8125  F1 0.8090  not_converged 0  t=97s

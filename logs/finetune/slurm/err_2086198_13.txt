@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------------- 
+PyTorch version 2.10.0, machine learning library for Python.
+
+For more help see: https://docs.csc.fi/apps/pytorch/ 
+---------------------------------------------------------------------------------- 
+Loading weights:   0%|          | 0/488 [00:00<?, ?it/s]Loading weights: 100%|██████████| 488/488 [00:00<00:00, 31541.47it/s]
+[transformers] [1mWavLMForSequenceClassification LOAD REPORT[0m from: microsoft/wavlm-large
+Key               | Status  | 
+------------------+---------+-
+projector.bias    | MISSING | 
+projector.weight  | MISSING | 
+layer_weights     | MISSING | 
+classifier.weight | MISSING | 
+classifier.bias   | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+/usr/local/lib64/python3.12/site-packages/torch/nn/functional.py:6371: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  key_padding_mask = _canonical_mask(

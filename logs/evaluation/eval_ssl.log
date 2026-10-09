@@ -1,0 +1,16 @@
+wavlm_large_nested                 UAR 0.8132  acc 0.8125  F1 0.8103  not_converged 0  t=143s
+wavlm_large per-layer LOSO UAR [0.5228, 0.651, 0.6979, 0.7083, 0.7311, 0.7363, 0.7715, 0.7917, 0.7897, 0.8138, 0.8171, 0.8145, 0.8047, 0.8008, 0.7956, 0.7949, 0.8001, 0.7949, 0.7917, 0.7891, 0.7806, 0.778, 0.7832, 0.7604, 0.7604] layer fits not converged 0
+wavlm_large_last                   UAR 0.7604  acc 0.7590  F1 0.7570  not_converged 0  t=143s
+wavlm_large_avg                    UAR 0.7975  acc 0.7965  F1 0.7960  not_converged 0  t=151s
+xlsr_300m_nested                   UAR 0.8190  acc 0.8167  F1 0.8140  not_converged 0  t=170s
+xlsr_300m per-layer LOSO UAR [0.5573, 0.6562, 0.6849, 0.7305, 0.7493, 0.7715, 0.7799, 0.8034, 0.8229, 0.834, 0.8288, 0.8294, 0.8164, 0.8145, 0.8132, 0.8132, 0.8066, 0.8138, 0.7988, 0.793, 0.7865, 0.7799, 0.7721, 0.7546, 0.7598] layer fits not converged 0
+xlsr_300m_last                     UAR 0.7598  acc 0.7569  F1 0.7535  not_converged 0  t=170s
+xlsr_300m_avg                      UAR 0.8118  acc 0.8083  F1 0.8055  not_converged 0  t=180s
+hubert_large_nested                UAR 0.7780  acc 0.7764  F1 0.7740  not_converged 0  t=301s
+hubert_large per-layer LOSO UAR [0.5326, 0.6217, 0.6725, 0.7057, 0.7135, 0.7311, 0.737, 0.7507, 0.7656, 0.7624, 0.7702, 0.7871, 0.7767, 0.778, 0.7839, 0.7741, 0.7708, 0.7663, 0.7676, 0.7669, 0.7598, 0.75, 0.7578, 0.7422, 0.7376] layer fits not converged 0
+hubert_large_last                  UAR 0.7376  acc 0.7340  F1 0.7329  not_converged 0  t=301s
+hubert_large_avg                   UAR 0.7747  acc 0.7736  F1 0.7719  not_converged 0  t=314s
+whisper_large_v3_nested            UAR 0.8021  acc 0.8028  F1 0.7971  not_converged 0  t=355s
+whisper_large_v3 per-layer LOSO UAR [0.5065, 0.5762, 0.5951, 0.6257, 0.6667, 0.6888, 0.6908, 0.7051, 0.7357, 0.7474, 0.7578, 0.7663, 0.7383, 0.7493, 0.7546, 0.7734, 0.7826, 0.7858, 0.8034, 0.8092, 0.8223, 0.8197, 0.8125, 0.8053, 0.8066, 0.8145, 0.821, 0.8079, 0.8034, 0.7969, 0.7995, 0.7812, 0.7839] layer fits not converged 0
+whisper_large_v3_last              UAR 0.7839  acc 0.7847  F1 0.7796  not_converged 0  t=355s
+whisper_large_v3_avg               UAR 0.8099  acc 0.8139  F1 0.8094  not_converged 0  t=369s

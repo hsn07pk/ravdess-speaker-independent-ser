@@ -1,0 +1,2 @@
+e2v_base_lr                        UAR 0.6667  acc 0.6632  F1 0.6622  not_converged 0  t=8s
+e2v_plus_large_lr                  UAR 0.7754  acc 0.7750  F1 0.7636  not_converged 0  t=48s

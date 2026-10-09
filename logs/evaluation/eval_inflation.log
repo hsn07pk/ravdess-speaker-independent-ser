@@ -1,0 +1,14 @@
+wavlm_large_random5                UAR 0.9167  acc 0.9146  F1 0.9152  not_converged 0  t=30s
+wavlm_large_spknorm                UAR 0.8730  acc 0.8722  F1 0.8711  not_converged 0  t=163s
+xlsr_300m_random5                  UAR 0.8939  acc 0.8938  F1 0.8919  not_converged 0  t=193s
+xlsr_300m_spknorm                  UAR 0.8685  acc 0.8694  F1 0.8663  not_converged 0  t=337s
+hubert_large_random5               UAR 0.8913  acc 0.8903  F1 0.8904  not_converged 0  t=388s
+hubert_large_spknorm               UAR 0.8509  acc 0.8486  F1 0.8465  not_converged 0  t=579s
+whisper_large_v3_random5           UAR 0.9036  acc 0.9069  F1 0.9045  not_converged 0  t=639s
+whisper_large_v3_spknorm           UAR 0.8906  acc 0.8931  F1 0.8901  not_converged 0  t=903s
+handcrafted_random5                UAR 0.6393  acc 0.6410  F1 0.6310  not_converged 0  t=903s
+handcrafted_spknorm                UAR 0.5983  acc 0.5993  F1 0.5908  not_converged 0  t=905s
+egemaps_random5                    UAR 0.6029  acc 0.6049  F1 0.5978  not_converged 0  t=906s
+egemaps_spknorm                    UAR 0.6217  acc 0.6229  F1 0.6151  not_converged 0  t=908s
+compare_random5                    UAR 0.7357  acc 0.7354  F1 0.7308  not_converged 0  t=922s
+compare_spknorm                    UAR 0.7220  acc 0.7208  F1 0.7155  not_converged 0  t=984s

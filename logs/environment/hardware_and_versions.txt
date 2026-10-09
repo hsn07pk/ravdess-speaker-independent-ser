@@ -1,0 +1,16 @@
+chip: Apple M5 Pro
+cpu cores: 15
+memory bytes: 25769803776
+ProductName:		macOS
+ProductVersion:		26.6.2
+BuildVersion:		25G83
+python 3.11.16
+torch 2.14.1 mps True
+transformers 5.18.0
+scikit-learn 1.9.1
+numpy 2.4.6
+scipy 1.17.1
+librosa 0.11.0
+opensmile 2.6.0
+pandas 3.0.6
+ac-e2v python 3.11.16 funasr 1.4.16 torch 2.14.1 cuda False

@@ -1,0 +1,15 @@
+system,intensity,human,model
+wavlm_large_nested,normal,0.5798177083,0.80078125
+wavlm_large_nested,strong,0.6735119048,0.8616071429
+xlsr_300m_nested,normal,0.5798177083,0.8125
+xlsr_300m_nested,strong,0.6735119048,0.8630952381
+hubert_large_nested,normal,0.5798177083,0.7513020833
+hubert_large_nested,strong,0.6735119048,0.8467261905
+whisper_large_v3_nested,normal,0.5798177083,0.7838541667
+whisper_large_v3_nested,strong,0.6735119048,0.8779761905
+compare_lr,normal,0.5798177083,0.6276041667
+compare_lr,strong,0.6735119048,0.6979166667
+egemaps_lr,normal,0.5798177083,0.5
+egemaps_lr,strong,0.6735119048,0.6145833333
+handcrafted_lr,normal,0.5798177083,0.5013020833
+handcrafted_lr,strong,0.6735119048,0.630952381

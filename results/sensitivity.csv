@@ -1,0 +1,13 @@
+check,system,uar_v2,uar_alt,delta,folds_changed,file,note
+reproduce,wavlm_large_nested,0.8131510417,0.8131510417,0,0,,bit-identical True
+lr_grid_to_1000,compare_spknorm,0.7220052083,0.7220052083,0,0,sens_grid1e3_compare_spknorm.npy,folds choosing C = 1000
+lr_grid_to_1000,e2v_base_lr,0.6666666667,0.6666666667,0,0,sens_grid1e3_e2v_base_lr.npy,folds choosing C = 1000
+lr_grid_to_1000,hubert_large_avg,0.7747395833,0.77734375,0.002604166667,2,sens_grid1e3_hubert_large_avg.npy,folds choosing C = 1000
+lr_grid_to_1000,hubert_large_last,0.7376302083,0.7376302083,0,0,sens_grid1e3_hubert_large_last.npy,folds choosing C = 1000
+lr_grid_to_1000,hubert_large_random5,0.8912760417,0.88671875,-0.004557291667,1,sens_grid1e3_hubert_large_random5.npy,folds choosing C = 1000
+lr_grid_to_1000,wavlm_large_nested_meanstd,0.8131510417,0.8131510417,0,0,sens_grid1e3_wavlm_large_nested_meanstd.npy,folds choosing C = 1000
+lr_grid_to_1000,wavlm_large_random5,0.9166666667,0.9166666667,0,0,sens_grid1e3_wavlm_large_random5.npy,folds choosing C = 1000
+svm_predict_vs_proba,handcrafted_svm,0.5045572917,0.5032552083,-0.001302083333,166,sens_svm_predict_handcrafted_svm.npy,clips whose label differs; stored probabilities reproduced bit-identically True
+svm_predict_vs_proba,egemaps_svm,0.51171875,0.53125,0.01953125,177,sens_svm_predict_egemaps_svm.npy,clips whose label differs; stored probabilities reproduced bit-identically True
+svm_predict_vs_proba,compare_svm,0.5950520833,0.5930989583,-0.001953125,61,sens_svm_predict_compare_svm.npy,clips whose label differs; stored probabilities reproduced bit-identically True
+svm_predict_vs_proba,wavlm_large_nested_svm,0.8098958333,0.8072916667,-0.002604166667,48,sens_svm_predict_wavlm_large_nested_svm.npy,clips whose label differs; stored probabilities reproduced bit-identically True

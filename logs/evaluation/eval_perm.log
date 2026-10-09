@@ -1,0 +1,3 @@
+wavlm_large_perm_s0                UAR 0.1387  acc 0.1396  F1 0.1314  not_converged 0  t=158s
+wavlm_large_perm_s1                UAR 0.1250  acc 0.1194  F1 0.1189  not_converged 0  t=340s
+wavlm_large_perm_s2                UAR 0.1374  acc 0.1375  F1 0.1360  not_converged 0  t=512s

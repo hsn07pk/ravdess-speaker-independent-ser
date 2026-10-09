@@ -1,0 +1,13 @@
+reproduce wavlm_large_nested with the current probe.py: bit-identical = True  t=135s
+compare_spknorm                LR grid to 1000: UAR 0.7220 -> 0.7220; folds choosing 1000: 0  t=196s
+e2v_base_lr                    LR grid to 1000: UAR 0.6667 -> 0.6667; folds choosing 1000: 0  t=202s
+hubert_large_avg               LR grid to 1000: UAR 0.7747 -> 0.7773; folds choosing 1000: 2  t=214s
+hubert_large_last              LR grid to 1000: UAR 0.7376 -> 0.7376; folds choosing 1000: 0  t=224s
+hubert_large_random5           LR grid to 1000: UAR 0.8913 -> 0.8867; folds choosing 1000: 1  t=272s
+wavlm_large_nested_meanstd     LR grid to 1000: UAR 0.8132 -> 0.8132; folds choosing 1000: 0  t=285s
+wavlm_large_random5            LR grid to 1000: UAR 0.9167 -> 0.9167; folds choosing 1000: 0  t=314s
+handcrafted_svm                SVM predict(): UAR 0.5046 -> 0.5033; clips that differ 166; stored proba reproduced True  t=317s
+egemaps_svm                    SVM predict(): UAR 0.5117 -> 0.5312; clips that differ 177; stored proba reproduced True  t=318s
+compare_svm                    SVM predict(): UAR 0.5951 -> 0.5931; clips that differ 61; stored proba reproduced True  t=419s
+wavlm_large_nested_svm         SVM predict(): UAR 0.8099 -> 0.8073; clips that differ 48; stored proba reproduced True  t=426s
+sensitivity.csv written

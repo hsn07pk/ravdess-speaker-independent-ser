@@ -1,0 +1,28 @@
+             JobID  Partition      State    Elapsed ElapsedRaw                                                              AllocTRES        NodeList 
+------------------ ---------- ---------- ---------- ---------- ---------------------------------------------------------------------- --------------- 
+       2085484_[1]  gpumedium  CANCELLED   00:00:00          0                                                                          None assigned 
+         2085602_1    gputest  COMPLETED   00:03:30        210                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg1101 
+         2086198_2  gpumedium  COMPLETED   00:03:13        193                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg3105 
+         2086198_3  gpumedium  COMPLETED   00:03:02        182                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg2113 
+         2086198_4  gpumedium  COMPLETED   00:03:14        194                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg3122 
+         2086198_5  gpumedium  COMPLETED   00:03:15        195                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg2114 
+         2086198_6  gpumedium  COMPLETED   00:03:05        185                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg1121 
+         2086198_7  gpumedium  COMPLETED   00:03:14        194                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg2111 
+         2086198_8  gpumedium  COMPLETED   00:03:03        183                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg3122 
+         2086198_9  gpumedium  COMPLETED   00:03:07        187                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg2111 
+        2086198_10  gpumedium  COMPLETED   00:03:08        188                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg1121 
+        2086198_11  gpumedium  COMPLETED   00:03:10        190                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg2111 
+        2086198_12  gpumedium  COMPLETED   00:03:13        193                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg2142 
+        2086198_13  gpumedium  COMPLETED   00:03:14        194                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg2111 
+        2086198_14  gpumedium  COMPLETED   00:03:07        187                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg1121 
+        2086198_15  gpumedium  COMPLETED   00:03:07        187                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg2111 
+        2086198_16  gpumedium  COMPLETED   00:03:05        185                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg2122 
+        2086198_17  gpumedium  COMPLETED   00:03:06        186                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg2111 
+        2086198_18  gpumedium  COMPLETED   00:03:08        188                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg1121 
+        2086198_19  gpumedium  COMPLETED   00:03:08        188                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg1126 
+        2086198_20  gpumedium  COMPLETED   00:03:01        181                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg2111 
+        2086198_21  gpumedium  COMPLETED   00:03:12        192                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg2111 
+        2086198_22  gpumedium  COMPLETED   00:02:59        179                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg1121 
+        2086198_23  gpumedium  COMPLETED   00:03:00        180                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg1117 
+        2086198_24  gpumedium  COMPLETED   00:03:24        204                  billing=32,cpu=32,gres/gpu:gh200=1,mem=217086M,node=1          rg1126 
+GPU hours (1 GPU per task): 1.2625
