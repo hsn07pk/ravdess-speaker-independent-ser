@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ravdess-ser"
+version = "1.0.0"
+description = "Speaker-independent speech emotion recognition on RAVDESS: handcrafted features vs frozen speech foundation models under nested leave-one-speaker-out evaluation."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Muhammad Hassan Sohail" }]
+keywords = ["speech emotion recognition", "affective computing", "RAVDESS", "speaker independence", "WavLM", "Whisper"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+]
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scipy>=1.13",
+    "scikit-learn>=1.5",
+    "joblib>=1.4",
+    "matplotlib>=3.9",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+features = ["librosa>=0.10", "soundfile>=0.12", "opensmile>=2.5", "torch>=2.4", "transformers>=4.46"]
+emotion2vec = ["librosa>=0.10", "funasr>=1.2"]
+dev = ["pytest>=8", "ruff>=0.15"]
+
+[project.urls]
+Repository = "https://github.com/hsn07pk/ravdess-speaker-independent-ser"
+Report = "https://github.com/hsn07pk/ravdess-speaker-independent-ser/blob/main/report/report.pdf"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 200
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+ignore = ["E401", "E402", "E731", "E741"]

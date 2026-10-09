@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.env
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# audio and large intermediates (see data/README.md)
+data/RAVDESS_speech/
+data/*.zip
+features/*
+!features/meta.csv
+!features/*_timing.txt
+
+# LaTeX build files (report/report.pdf is tracked)
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.fdb_latexmk
+report/*.fls
+report/*.log
+report/*.out
+report/*.synctex.gz
+report/main.pdf

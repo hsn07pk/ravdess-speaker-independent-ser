@@ -1,0 +1,22 @@
+name: ravdess-ser
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy==2.4.6
+      - pandas==3.0.6
+      - scipy==1.17.1
+      - scikit-learn==1.9.1
+      - joblib==1.6.0
+      - matplotlib==3.11.2
+      - openpyxl==3.1.5
+      - librosa==0.11.0
+      - soundfile==0.14.0
+      - opensmile==2.6.0
+      - torch==2.14.1
+      - transformers==5.18.0
+      - pytest
+      - ruff
+      - -e .

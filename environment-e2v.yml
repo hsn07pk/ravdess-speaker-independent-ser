@@ -1,0 +1,16 @@
+name: ravdess-ser-e2v
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy==2.4.6
+      - pandas==3.0.6
+      - librosa==0.11.0
+      - soundfile==0.14.0
+      - torch==2.14.1
+      - torchaudio
+      - modelscope==1.40.1
+      - funasr==1.4.16
+      - -e .

@@ -1,0 +1,6 @@
+*.npy binary
+*.xlsx binary
+*.pdf binary
+*.png binary
+report/** linguist-documentation
+logs/** linguist-generated
